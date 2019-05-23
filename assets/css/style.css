@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.header-firtsRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+}
+
+.header-lastRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-icon {
+    width: 5%;
+    height: 25px;
+}
+
+.header-notas {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-search {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+.header-login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    border-wi
+}
+
+form label{
+    display: flex;
+    flex-grow: 1;
+}
+
+.search{
+    flex-grow: 1;
+}
+
+/* FONTS    
+
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Inconsolata', monospace;
+
+*/

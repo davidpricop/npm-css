@@ -1,0 +1,38 @@
+.header-firtsRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+}
+
+.header-lastRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-icon {
+    width: 5%;
+    height: 25px;
+}
+
+.header-search {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+.header-login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+form input-search{
+    flex-grow: 1;
+}
