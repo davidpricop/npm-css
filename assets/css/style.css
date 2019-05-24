@@ -1,19 +1,36 @@
+/* FONTS    
+
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Inconsolata', monospace;
+
+*/
+
 body {
     font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 14px;
 }
 
+/* FIRST ROW - HEADER 
+ */
+
 .header-firtsRow {
     display: flex;
     justify-content: space-between;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-right: 1px;
+    border-width: 1px;
+    border-color: black;
+    margin-bottom: 10px;
 }
 
 .header-text {
     display: flex;
     justify-content: flex-start;
     margin-right: 350px;
-
 }
 
 .header-text {
@@ -56,49 +73,92 @@ body {
     padding: 10px;
 }
 
+/* SECOND ROW - HEADER 
+ */
+
 .header-lastRow {
     display: flex;
     justify-content: space-between;
 }
 
-.header-icon {
-    width: 5%;
-    height: 15px;
-}
-
-.header-notas {
+.header-search div {
     display: flex;
     justify-content: flex-start;
+    padding: 10px;
+    padding-right: 0px;
+}
+
+.header-icon {
+    width: 100px;
+    height: 23px;
 }
 
 .header-search {
     display: flex;
     justify-content: flex-start;
     flex-grow: 1;
+    margin-right: 20px;
 }
+
 .header-login {
+    margin: 8px 8px;
     display: flex;
     justify-content: flex-end;
+    margin-right: 32px;
+}
+
+.header-login p:first-child {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.header-login p:last-child {
+    padding: 10px;
+}
+
+.header-login p:first-child {
+    margin-right: 16px;
 }
 
 form {
     display: flex;
     justify-content: flex-start;
     flex-grow: 1;
-}
-
-form label{
-    display: flex;
-    flex-grow: 1;
+    position: relative;
 }
 
 .search{
     flex-grow: 1;
 }
 
-/* FONTS    
+/* form label{
+    display: flex;
+    flex-grow: 1;
+} */
 
-    font-family: 'Fira Mono', monospace;
-    font-family: 'Inconsolata', monospace;
 
-*/
+/*  CONTENT1- 
+ */
+
+ 
+
+
+
+/*  CONTENT2- 
+ */
+
+/*  CONTENT3- 
+ */
+
+/*  CONTENT4- 
+ */
+
+/*  CONTENT5- 
+ */
+
+/*  CONTENT6- 
+ */
+
+/*  CONTENT7- 
+ */
