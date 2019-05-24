@@ -132,6 +132,12 @@ form {
     flex-grow: 1;
 }
 
+.header-search form input:last-child {
+    width: 70px;
+    background-color: #FA3D44;
+    color: white;
+}
+
 /* form label{
     display: flex;
     flex-grow: 1;
@@ -141,15 +147,37 @@ form {
 /*  CONTENT1- 
  */
 
- 
+ .content1 {
+     background-color: #F8F4F4;
+ }
 
+ .content1-text {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
 
+ }
+
+ .content1-buttons {
+     display: flex;
+     justify-content: center;  
+     flex-wrap: wrap;    
+ }
 
 /*  CONTENT2- 
  */
 
+.content2 {
+    background-color: #FFF;
+}
+
 /*  CONTENT3- 
  */
+
+.content3 {
+    background-color: #2E0A08;
+}
 
 /*  CONTENT4- 
  */
@@ -160,5 +188,10 @@ form {
 /*  CONTENT6- 
  */
 
+ .content4 {
+    background-color: #F8F4F4;
+}
+
 /*  CONTENT7- 
  */
+
